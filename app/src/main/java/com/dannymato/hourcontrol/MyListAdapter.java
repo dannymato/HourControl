@@ -8,13 +8,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
 import android.widget.ListAdapter;
 import android.widget.TextView;
-
-/**
- * Created by dannymato on 6/7/17.
- */
 
 class MyListAdapter implements ListAdapter {
 

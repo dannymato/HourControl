@@ -1,6 +1,7 @@
 package com.dannymato.hourcontrol;
 
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -43,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
 
         ListView listView = (ListView)findViewById(R.id.listView);
         listView.setAdapter(new MyListAdapter(this));
-
 
     }
 

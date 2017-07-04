@@ -4,10 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by dannymato on 6/6/17.
- */
-
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     public DatabaseHelper(Context context){
@@ -17,6 +13,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL(HourControlContract.HoursTable.CREATE_TABLE);
+        db.execSQL(HourControlContract.EmployerTable.CREATE_TABLE);
     }
 
     @Override

@@ -2,9 +2,6 @@ package com.dannymato.hourcontrol;
 
 import android.provider.BaseColumns;
 
-/**
- * Created by dannymato on 6/6/17.
- */
 
 public final class HourControlContract {
 
